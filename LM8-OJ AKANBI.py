@@ -143,7 +143,7 @@ while user_input != '7':
         time.sleep(1)
         print(f"\nEnter Starting 11 for {country_1}")
         counting = 1
-        for i in range(2):  # change range for how many players that should be entered
+        for i in range(11):  # change range for how many players that should be entered
             first_name = input(f"what is player{counting} first name: ")
             last_name = input(f"what is player{counting} last name: ")
             number = input(f"what is player{counting} shirt #: ")
@@ -154,7 +154,7 @@ while user_input != '7':
 
         print(f"\nEnter starting 11 for {country_2}")
         counting = 1
-        for i in range(2):  # change range for how many players that should be entered
+        for i in range(11):  # change range for how many players that should be entered
             first_name = input(f"what is player{counting} first name: ")
             last_name = input(f"what is player{counting} last name: ")
             number = input(f"what is player{counting} shirt #: ")
